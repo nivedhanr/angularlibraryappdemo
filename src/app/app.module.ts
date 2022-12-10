@@ -8,6 +8,7 @@ import { RegComponent } from './reg/reg.component';
 import { LogComponent } from './log/log.component';
 import { AdminComponent } from './admin/admin.component';
 import { BookviewComponent } from './bookview/bookview.component';
+import { IssueComponent } from './issue/issue.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BookviewComponent } from './bookview/bookview.component';
     RegComponent,
     LogComponent,
     AdminComponent,
-    BookviewComponent
+    BookviewComponent,
+    IssueComponent
   ],
   imports: [
     BrowserModule,
